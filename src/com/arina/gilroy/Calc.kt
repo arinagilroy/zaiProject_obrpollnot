@@ -108,7 +108,7 @@ fun polishCalculateFunctional(expr: String): Double {
 }
 
 fun main() {
-    val result = Calc.parse("(1 + 2) * 4 + 3")
+    val result = Calc.parse("2 + 2 * 2")
     var toPolishCalc: String = ""
     for (s in result){
         print("$s ")
